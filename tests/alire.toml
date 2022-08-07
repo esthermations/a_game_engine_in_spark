@@ -1,0 +1,17 @@
+name = "tests"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Esther O'Keefe"]
+maintainers = ["Esther O'Keefe <esthermations@gmail.com>"]
+maintainers-logins = ["esthermations"]
+
+executables = ["tests"]
+[[depends-on]]
+a_game_engine_in_spark = "~0.1.0-dev"
+[[pins]]
+a_game_engine_in_spark = { path='../../a_game_engine_in_spark' }
+[[depends-on]]
+aunit = "^22.0.0"
+[[depends-on]]
+gnatcov = "^22.0.1"
